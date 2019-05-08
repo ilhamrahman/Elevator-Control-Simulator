@@ -27,11 +27,36 @@ This zip contains
 		/.travis.yml - Travis script for continuous integration
 		/.pom.xml - Maven project configuration
 		
-Set up and running:
-1. Unzip the files contained in L3G7_milestone_2
-2. In Eclipse IDE, import the project (as an existing project) into your current workspace
-3. Right click on each Java file (Scheduler.java, Elevator.java, Floor.java) in this order.
 (It is recommended to open a new console for each running program)
+
+To setup and execute the project:
+1. Unzip the files contained in L3G7_milestone_5
+2. In Eclipse IDE, import the project (as an existing project) into your current workplace
+
+To run the program on separate computers:
+3. Obtain the IP addresses of both computers
+4. Open run configuration for Scheduler
+5. Input the IP address for the computer running Floor and Elevator, also provide the
+number of floors and elevators in that order separated by spaces
+6. Open run configuration for Elevator
+7. Input the IP address for the computer running the Scheduler, also provide the number
+of elevators separated by spaces
+8. Open run configuration for Floor
+9. Input the IP address for the computer running the Scheduler
+10. Execute the program on both computers
+
+To run the program on a single computer:
+3. Obtain the IP address of the computer
+4. Open run configuration for Floor
+5. Input the IP address for the computer
+6. Open run configuration for Scheduler
+7. Input the IP address for the computer, also provide the number of floors and elevators
+in that order separated by spaces
+8. Open run configuration for Elevator
+9. Input the IP address for the computer, also provide the number of elevators separated
+by spaces
+10. Execute the Scheduler, Elevator and Floor .java files in that order
+
 
 Responsibility breakdown:
 Each group member was equally responsible for the coding part of this iteration.
